@@ -2,15 +2,23 @@
 # set JEKYLL_ENV=production | bundle exec jekyll build
 
 title: Lo que Sea
-email: info@loquesearosarito.com
+email: <a href:"mailto:info@loquesearosarito.com">info@loquesearosarito.com</a>
+phone: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  ¡Lo Que Sea Food Truck Italian Deli Rosarito!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://loquesearosarito.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+
+social:
+  name: Lo que Sea
+  links:
+facebook: https://www.facebook.com/loquesearosarito/
+instagram: https://www.instagram.com/realtylegalbr/
+twitter: https://twitter.com/CentroRosarito
+linkedin: https://www.linkedin.com/in/rosaritocentro/
+youtube: https://www.youtube.com/channel/UCWexmtM12ZHXjHvuQAxeXsQ
 
 # Build settings
 theme: minima
