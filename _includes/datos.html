@@ -1,11 +1,10 @@
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "url": "https://loquesearosarito.com/",
+      "@type": "Restaurant",
       "image": [
-          "https://loquesearosarito.com/img/og-image.png"
-        ],
+         "https://loquesearosarito.com/img/og-image.png"
+       ],
       "@id": "https://loquesearosarito.com/",
       "name": "Lo Que Sea - Food Truck",
       "sameAs" : [
@@ -30,9 +29,21 @@
         "latitude": 32.256487,
         "longitude": -116.968219
       },
+      "url": "https://loquesearosarito.com/",
       "telephone": "+5216611286663",
+      "servesCuisine": "Italian Deli",
       "priceRange": "$$"
       ,"openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday"
+            "Wednesday",
+          ],
+          "opens": "closed",
+          "closes": "closed"
+        },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
@@ -44,23 +55,18 @@
         },
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Saturday",
-            "Sunday",
-            
-          ],
+          "dayOfWeek": "Saturday",
           "opens": "10:00",
           "closes": "17:00"
         },
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",          
-          "opens": "closed",
-          "closes": "closed"
+          "dayOfWeek": "Sunday",
+          "opens": "10:00",
+          "closes": "17:00"
         }
-       ]          
+      ],
+      "menu": "https://loquesearosarito.com/menu.html",
+      "acceptsReservations": "True"
     }
 </script>

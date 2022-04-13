@@ -27,4 +27,6 @@
 <meta name="twitter:image" content="https://loquesearosarito.com/img/og-image.png" />
 <meta name="twitter:description"
     content="¡Lo Que Sea Food Truck Italian Deli Rosarito! We are so happy to be part of this beautiful community." />
-
+{%- if jekyll.environment == 'production' and site.google_analytics -%}
+{%- include google-analitycs.html -%}
+{%- endif -%}    
