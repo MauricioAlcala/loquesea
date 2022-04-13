@@ -5,7 +5,7 @@ title: Lo que Sea
 email: <a href:"mailto:loqueseafoodtruck21@gmail.com">loqueseafoodtruck21@gmail.com</a>
 phone: +52 1 661 128 6663
 description: >- # this means to ignore newlines until "baseurl:"
-  ¡Lo Que Sea Food Truck Italian Deli Rosarito!
+  ¡Lo Que Sea Food Truck Italian Deli Rosarito! We are here to serve, Breakfast, Sandwiches, Drinks, and Desserts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://loquesearosarito.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
