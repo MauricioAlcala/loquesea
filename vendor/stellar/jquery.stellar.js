@@ -56,7 +56,7 @@
 			}
 		},
 
-		// Returns a function which adds a vendor prefix to any CSS property name
+		//Returns a function which adds a vendor prefix to any CSS property name
 		vendorPrefix = (function() {
 			var prefixes = /^(Moz|Webkit|Khtml|O|ms|Icab)(?=[A-Z])/,
 				style = $('script')[0].style,

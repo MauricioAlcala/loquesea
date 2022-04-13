@@ -32,9 +32,12 @@
 <script src="vendor/select2/select2.min.js "></script>
 <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
 <script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
-<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+<script src="vendor/stellar/jquery.stellar.min.js" type="text/javascript" charset="utf-8"></script>
 <script
     src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
 
 <!-- Main JS -->
 <script src="js/app.min.js "></script>
+{%- if jekyll.environment == 'production' and site.google_analytics -%}
+{%- include google-analitycs.html -%}
+{%- endif -%}
